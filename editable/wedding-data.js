@@ -1,37 +1,27 @@
 /**
  * wedding-data.js — Customer-facing editable data layer for ever-after-bloom
- * Couple: Fairy & Vinayak
+ * Couple: Vinayak & Fairy
  * Date: 6 & 7 December 2026
  * Venue: Bhanwar Singh Palace, Jaipur
  */
 
 window.WEDDING_DATA = {
   couple: {
-    bride: "Fairy",
     groom: "Vinayak",
-    initials: "F & V",
+    bride: "Fairy",
+    initials: "V & F",
   },
   family: {
-    bride: {
-      name: "Fairy Gupta",
-      parents: "Mrs. Seema & Mr. Manoj Gupta",
-      grandparents: "Smt. Kamlesh & Late Shri Vijay Prakash Gupta",
-      chacha: "Mr. Vipin Gupta",
-    },
     groom: {
       name: "Vinayak Bansal",
       parents: "Mrs. Sonali & Mr. Manoj Bansal",
+      grandparents: "Late Smt. Ram Kali Bansal & Late Shri Rameshwar Prasad Bansal",
       city: "Kota, Rajasthan",
     },
-  },
-  bestWishes: {
-    title: "With Best Wishes",
-    subtitle: "Brothers & Sisters",
-    names: [
-      "Devansh",
-      "Kunal",
-      "Rashi"
-    ]
+    bride: {
+      name: "Fairy Gupta",
+      parents: "Mrs. Seema & Mr. Manoj Gupta",
+    },
   },
   dateISO: "2026-12-06T12:30:00+05:30",
   dateLabel: "6 & 7 December 2026",
@@ -46,15 +36,6 @@ window.WEDDING_DATA = {
     kicker: "Together with our families",
     eyebrow: "Save the Date",
     blessing: "Two souls, one sacred journey",
-  },
-  compliments: {
-    title: "With Best Compliments",
-    firms: [
-      "Skyline Heights",
-      "KRM Infracom",
-      "Manoj Trading Company",
-      "Farry Agency"
-    ]
   },
   schedule: [
     {
@@ -95,8 +76,7 @@ window.WEDDING_DATA = {
   footer: {
     line1: "Come early. Stay late.",
     line2: "Celebrate with us.",
-    compliments: "With Best Compliments: Skyline Heights · KRM Infracom · Manoj Trading Company · Farry Agency",
-    signoff: "With all our love, Fairy & Vinayak",
+    signoff: "With all our love, Vinayak & Fairy",
   },
   images: {
     seal: "./editable/assets/invite-seal.png",
